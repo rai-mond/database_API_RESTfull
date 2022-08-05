@@ -1,0 +1,27 @@
+{
+  "name": "database_api_restfull",
+  "version": "1.0.0",
+  "description": "database per restfull api",
+  "main": "server_database.js",
+  "scripts": {
+    "test": "test-start",
+    "start": "npm run server",
+    "server": "node server_database.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rai-mond/database_API_RESTfull.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rai-mond/database_API_RESTfull/issues"
+  },
+  "homepage": "https://github.com/rai-mond/database_API_RESTfull#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "serve-static": "^1.15.0"
+  }
+}
