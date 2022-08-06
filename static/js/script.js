@@ -138,7 +138,7 @@ const httpReq=new XMLHttpRequest();
 function my_post(){
 
     
-    httpReq.open("POST", window.location.href+"/database" )
+    httpReq.open("POST", window.location.href+"database" )
     httpReq.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
     console.log("post  ",JSON.stringify(data))
     httpReq.send(JSON.stringify(data))
@@ -155,7 +155,7 @@ function my_get(){
       };
 
     
-    httpReq.open("GET", window.location.href+"/database",true )
+    httpReq.open("GET", window.location.href+"database",true )
     //httpReq.withCredentials = true;
     
     httpReq.send()
