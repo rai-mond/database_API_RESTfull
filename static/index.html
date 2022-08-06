@@ -4,46 +4,16 @@
     <div class="container">
 
         <hr>
-        <hl>Create New Book</hl>
+        <hl>Make New Request</hl>
         <hr>
-        <form action="http://localhost:3000/data" method ="POST">
-            <div class="form-group">
-                <label for="ISBN">ISBN</label>
-                <input class="form-control" name="isbn">
-            </div>
-            <div class="form-group">
-                <label for="Title">Title</label>
-                <input class="form-control" name="title">
-            </div>
-    
-            <div class="form-group">
-                <label for="Author">Author</label>
-                <input class="form-control" name="author">
-            </div>
-    
-            <div class="form-group">
-                <label for="Published Date">Published Date</label>
-                <input class="form-control" name="published date">
-            </div>
-    
-            <div class="form-group">
-                <label for="Publisher">Publisher</label>
-                <input class="form-control" name="publisher">
-            </div>
-    
-            <div class="form-group">
-                <label for="Number of pages">Number of Pages</label>
-                <input class="form-control" name="number of pages">
-            </div>
-    
-            <button type="submit" class="btn btn-primary">Submit</button>
-    
-    
-    
-        </form>
-    
+
+            <button class="btn btn-primary" onclick="my_post()">Click to POST</button>
+            <hr>
+            <button class="btn btn-primary" onclick="my_get()">click to GET</button>
+        
     
     </div>
+    <script src="/js/script.js"></script>
 
 
 </body>
